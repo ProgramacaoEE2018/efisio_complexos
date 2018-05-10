@@ -3,13 +3,13 @@
  *
  *  Created on: 8 de mai de 2018
  *      Author: efisi
+
  */
+
+//Criação de classe
 
 #ifndef COMPLEXO_H_
 #define COMPLEXO_H_
-
-#include <iostream>
-#include <stdio.h>
 #include <math.h>
 
 class Complexo
@@ -18,13 +18,11 @@ class Complexo
         float real;
         float im;
     public:
-        //contrutor
-        Complexo(float,float);
-        //metodos
-        float modulo();
-        Complexo conjugado();
-        //void imprimir();
 
+        Complexo(float,float);
+        float Modulo();
+
+        Complexo Conjugado();
         Complexo operator + (Complexo);
         Complexo operator - (Complexo);
         Complexo operator * (Complexo);

@@ -4,6 +4,7 @@
  *  Created on: 8 de mai de 2018
  *      Author: efisi
  */
+//Executando as operações
 
 #include "Complexo.h"
 #include <iostream>
@@ -17,7 +18,7 @@ int main (){
 	 Complexo z2(1, 1);
 	 Complexo z3 = z1+z2;
 
-	cout<<(z3.modulo())<<endl;
+	cout<<(z3.Modulo())<<endl;
 
 
 
